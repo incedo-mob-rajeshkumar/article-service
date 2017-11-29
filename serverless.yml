@@ -1,0 +1,82 @@
+service: article-service
+
+frameworkVersion: ">=1.1.0 <2.0.0"
+
+plugins:
+  - serverless-aws-documentation
+  - serverless-aws-alias
+  - serverless-webpack
+  - serverless-offline
+  - serverless-dynamodb-local
+  - serverless-aws-models
+
+include: 
+  - config/*
+
+custom:
+  webpackIncludeModules: true
+  stage: ${opt:stage, self:provider.stage}
+  
+  tablePrefix:
+    develop: DEVELOP
+    release: RELEASE
+    prod: PROD
+  stageVariables:
+    environment: ${self:custom.stage}
+    version: ${self:custom.stage}
+  documentation:
+    summary: Article Service APIs
+    description: Incudes services for Article
+    resources:
+      - path: /
+        description: A no op.
+  dynamodb:
+      start:
+        migrate: true
+  serverless-offline:
+    babelOptions:
+      presets: ["es2015"]
+
+provider:
+  name: aws
+  runtime: nodejs6.10
+  stage: develop
+  region: us-east-1
+  role: arn:aws:iam::${file(./env.yml):${self:custom.stage}.ACCOUNT_ID}:role/${file(./env.yml):${self:custom.stage}.ROLENAME}
+
+
+package:
+  individually: true
+
+functions:
+  saveArticle: ${file(/config/functions.yml):saveArticle}
+  getArticle: ${file(/config/functions.yml):getArticle}
+  getArticleList: ${file(/config/functions.yml):getArticleList}
+  updateArticle: ${file(/config/functions.yml):updateArticle}
+  deleteArticle: ${file(/config/functions.yml):deleteArticle}
+    
+resources:
+  Description: "Stack for Article"
+  Resources:
+    SeriesDB:
+      Type: 'AWS::DynamoDB::Table'
+      Properties:
+        AttributeDefinitions:
+          -
+            AttributeName: site
+            AttributeType: S
+          -
+            AttributeName: id
+            AttributeType: S
+        KeySchema:
+          -
+            AttributeName: site
+            KeyType: HASH
+          -
+            AttributeName: id
+            KeyType: RANGE
+        ProvisionedThroughput:
+          ReadCapacityUnits: 1
+          WriteCapacityUnits: 1
+        TableName: '${self:custom.tablePrefix.${self:custom.stage}}.CONTENT.ARTICLE'
+

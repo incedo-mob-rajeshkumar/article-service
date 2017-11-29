@@ -1,0 +1,101 @@
+{
+  "cms.site.owner" : {
+    "_ref" : "00000151-11b4-d29b-a17d-55fdb2b80000",
+    "_type" : "3fa7e939-87a4-11e0-b48d-1231391d338d"
+  },
+  "cms.site.consumers" : [ {
+    "_ref" : "00000152-3cff-d85c-a753-beff48770000",
+    "_type" : "3fa7e939-87a4-11e0-b48d-1231391d338d"
+  }, {
+    "_ref" : "00000152-3cff-d85c-a753-beff458f0000",
+    "_type" : "3fa7e939-87a4-11e0-b48d-1231391d338d"
+  }, {
+    "_ref" : "00000152-3cff-d85c-a753-beff724d0000",
+    "_type" : "3fa7e939-87a4-11e0-b48d-1231391d338d"
+  }, {
+    "_ref" : "00000152-3cff-d85c-a753-beff74fe0000",
+    "_type" : "3fa7e939-87a4-11e0-b48d-1231391d338d"
+  }, {
+    "_ref" : "00000152-3974-d977-af7a-bb7c16460000",
+    "_type" : "3fa7e939-87a4-11e0-b48d-1231391d338d"
+  }, {
+    "_ref" : "00000152-3cff-d85c-a753-beff42840000",
+    "_type" : "3fa7e939-87a4-11e0-b48d-1231391d338d"
+  }, {
+    "_ref" : "00000151-c5cd-d4bf-a15b-d7ed72980000",
+    "_type" : "3fa7e939-87a4-11e0-b48d-1231391d338d"
+  }, {
+    "_ref" : "00000152-3cff-d85c-a753-beff77db0000",
+    "_type" : "3fa7e939-87a4-11e0-b48d-1231391d338d"
+  }, {
+    "_ref" : "00000152-3cff-d85c-a753-beff6c990000",
+    "_type" : "3fa7e939-87a4-11e0-b48d-1231391d338d"
+  }, {
+    "_ref" : "00000152-3cff-d85c-a753-beff7d970000",
+    "_type" : "3fa7e939-87a4-11e0-b48d-1231391d338d"
+  }, {
+    "_ref" : "00000152-3cff-d85c-a753-beff6f770000",
+    "_type" : "3fa7e939-87a4-11e0-b48d-1231391d338d"
+  }, {
+    "_ref" : "00000152-3cff-d85c-a753-beff65bc0000",
+    "_type" : "3fa7e939-87a4-11e0-b48d-1231391d338d"
+  }, {
+    "_ref" : "00000152-3cff-d85c-a753-beff56f50000",
+    "_type" : "3fa7e939-87a4-11e0-b48d-1231391d338d"
+  }, {
+    "_ref" : "00000151-c5ce-d10b-a7fb-f7dedd2e0000",
+    "_type" : "3fa7e939-87a4-11e0-b48d-1231391d338d"
+  }, {
+    "_ref" : "00000151-c5cf-da42-a9f5-ffdf6fba0000",
+    "_type" : "3fa7e939-87a4-11e0-b48d-1231391d338d"
+  }, {
+    "_ref" : "00000152-3cff-d85c-a753-beff3f620000",
+    "_type" : "3fa7e939-87a4-11e0-b48d-1231391d338d"
+  }, {
+    "_ref" : "00000152-3cff-d85c-a753-beff62af0000",
+    "_type" : "3fa7e939-87a4-11e0-b48d-1231391d338d"
+  }, {
+    "_ref" : "00000152-3cff-d85c-a753-beff4b350000",
+    "_type" : "3fa7e939-87a4-11e0-b48d-1231391d338d"
+  }, {
+    "_ref" : "0000014a-73f9-d184-a3ef-f3f974450000",
+    "_type" : "3fa7e939-87a4-11e0-b48d-1231391d338d"
+  }, {
+    "_ref" : "00000151-c5ca-d2c4-afdf-eddb7e820000",
+    "_type" : "3fa7e939-87a4-11e0-b48d-1231391d338d"
+  }, {
+    "_ref" : "00000152-3cff-d85c-a753-beff4e240000",
+    "_type" : "3fa7e939-87a4-11e0-b48d-1231391d338d"
+  }, {
+    "_ref" : "00000152-3cff-d85c-a753-beff7aba0000",
+    "_type" : "3fa7e939-87a4-11e0-b48d-1231391d338d"
+  } ],
+  "cms.content.publishDate" : 1454109448724,
+  "cms.content.publishUser" : {
+    "_ref" : "00000144-9354-daf8-ab7c-f3ff4de70000",
+    "_type" : "3fa7c225-87a4-11e0-b48d-1231391d338d"
+  },
+  "cms.content.updateDate" : 1493735900099,
+  "cms.content.updateUser" : {
+    "_ref" : "00000152-acf8-d3cf-a776-fffa11260000",
+    "_type" : "3fa7c225-87a4-11e0-b48d-1231391d338d"
+  },
+  "cms.ab.fields" : { },
+  "cacheTime" : 300,
+  "lazyLoad" : false,
+  "visibility" : [ "MOBILE", "TABLET", "DESKTOP" ],
+  "moduleRenderer" : {
+    "_ref" : "00000152-8fab-d9b2-a57b-ffbbbf960000",
+    "_type" : "00000148-653e-d1a7-ab5d-f7beb7d20000"
+  },
+  "moduleWidth" : "FULL_WIDTH",
+  "title" : "Article Module",
+  "cms.seo.keywords" : [ ],
+  "cms.seo.robots" : [ ],
+  "cms.directory.paths" : [ ],
+  "cms.directory.pathTypes" : { },
+  "infiniteScroll" : true,
+  "cms.directory.pathsMode" : "MANUAL",
+  "_id" : "00000152-8fab-d6b9-a35e-afbbad9f0000",
+  "_type" : "00000151-87ff-da48-a5f1-a7fff4950000"
+}

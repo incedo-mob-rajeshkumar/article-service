@@ -1,0 +1,99 @@
+{
+  "cms.site.owner" : {
+    "_ref" : "00000151-11b4-d29b-a17d-55fdb2b80000",
+    "_type" : "3fa7e939-87a4-11e0-b48d-1231391d338d"
+  },
+  "cms.directory.paths" : [ "00000151-11b4-d29b-a17d-55fdb2b80000:00000153-1ed0-d80a-a573-9fff7e830000/disney-on-ice-presents-treasure-trove" ],
+  "cms.directory.pathTypes" : {
+    "00000151-11b4-d29b-a17d-55fdb2b80000:00000153-1ed0-d80a-a573-9fff7e830000/disney-on-ice-presents-treasure-trove" : "PERMALINK"
+  },
+  "cms.content.publishDate" : 1356797097000,
+  "cms.content.updateDate" : 1454106446504,
+  "name" : "Disney On Ice presents Treasure Trove",
+  "headLine" : "Disney On Ice presents Treasure Trove",
+  "lead" : "Disney On Ice presents Treasure Trove Opens the Disney Vault with Tales Spanning from the First Animated Film to the 50th  ",
+  "promoImage" : {
+    "_ref" : "00000153-1ed0-d80a-a573-9fffa6820000",
+    "_type" : "00000150-d3a3-db49-af5c-f3f3e0410000"
+  },
+  "bodyCopy" : [ "<p>Washington, D.C. - Hit the ice with Mickey Mouse, Minnie Mouse, Donald and Goofy as they embark on a treasure hunt for some of the most popular Disney films ever. Audiences will experience a medley of their favorite animated Disney movies throughout the years including the very first full-length animated film, Snow White and the Seven Dwarfs, and the 50th Disney film, Tangled. With eight movies and more than 50 Disney characters featured, Feld Entertainment’s Disney On Ice presents Treasure Trove has a story for every generation.&nbsp; <br><br>The show will be performing from February 13-18, 2013, at Verizon Center for 10 performances. Tickets go on sale December 31 at 10:00 a.m.<br>“We’ve chosen some of the greatest gems from the Disney treasure chest for this production,” says Producer Nicole Feld. “We went through our entire portfolio of Disney On Ice shows, trying to bring something very different to audiences. We wanted to pick action-packed stories that really resonated with not only kids today, but with their parents as well. Treasure Trove has everything from the swashbuckling pirates in Peter Pan to the comedic duo Timon and Pumbaa in The Lion King.”<br><br>Before the action begins, audiences have the opportunity to get fit with a taste of what Disney On Ice skaters do to prepare themselves for every show. Disney/Pixar’sThe Incredibles lead a warm-up routine that will have everyone up on their feet. Audiences will stretch with Mrs. Incredible, run in place with Dash, pump iron with Mr. Incredible and work up some extra energy with Violet. The warm-up routine promotes keeping kids active, while also allowing them to participate in the show.&nbsp;</p><p>“Crowd interaction is a key component to the Disney On Ice experience. We want the audience to feel as if they’re a part of the show, and that’s evident in this production,” says Producer Juliette Feld. “Rapunzel and Flynn share a special moment with an audience member when they release a lantern together, Sebastian invites everyone to be a part of the rhythm during ‘Under the Sea,’ Peter Pan and Tinker Bell encourage the crowd to echo the crocodile’s ‘tick tock,’ and Aladdin stops to shake hands with guests in Agrabah.”<br><br>Audiences will be amazed to see how many of their favorite Disney films and characters are featured. The show includes moments from classic Disney films like Peter Pan, The Lion King, Alice in Wonderland, Snow White and the Seven Dwarfs, Aladdin, and The Little Mermaid, as well as new favorites Tangled and Princess and the Frog.<br></p>" ],
+  "cms.ab.fields" : { },
+  "cms.site.consumers" : [ {
+    "_ref" : "00000151-c5cf-da42-a9f5-ffdf6fba0000",
+    "_type" : "3fa7e939-87a4-11e0-b48d-1231391d338d"
+  }, {
+    "_ref" : "00000152-3cff-d85c-a753-beff3f620000",
+    "_type" : "3fa7e939-87a4-11e0-b48d-1231391d338d"
+  }, {
+    "_ref" : "00000152-3cff-d85c-a753-beff6f770000",
+    "_type" : "3fa7e939-87a4-11e0-b48d-1231391d338d"
+  }, {
+    "_ref" : "00000152-3cff-d85c-a753-beff7d970000",
+    "_type" : "3fa7e939-87a4-11e0-b48d-1231391d338d"
+  }, {
+    "_ref" : "00000152-3cff-d85c-a753-beff65bc0000",
+    "_type" : "3fa7e939-87a4-11e0-b48d-1231391d338d"
+  }, {
+    "_ref" : "00000152-3cff-d85c-a753-beff74fe0000",
+    "_type" : "3fa7e939-87a4-11e0-b48d-1231391d338d"
+  }, {
+    "_ref" : "00000152-3cff-d85c-a753-beff42840000",
+    "_type" : "3fa7e939-87a4-11e0-b48d-1231391d338d"
+  }, {
+    "_ref" : "00000151-11b4-d29b-a17d-55fdb2b80000",
+    "_type" : "3fa7e939-87a4-11e0-b48d-1231391d338d"
+  }, {
+    "_ref" : "00000152-3cff-d85c-a753-beff6c990000",
+    "_type" : "3fa7e939-87a4-11e0-b48d-1231391d338d"
+  }, {
+    "_ref" : "00000152-3cff-d85c-a753-beff4b350000",
+    "_type" : "3fa7e939-87a4-11e0-b48d-1231391d338d"
+  }, {
+    "_ref" : "00000152-3cff-d85c-a753-beff724d0000",
+    "_type" : "3fa7e939-87a4-11e0-b48d-1231391d338d"
+  }, {
+    "_ref" : "00000151-c5ce-d10b-a7fb-f7dedd2e0000",
+    "_type" : "3fa7e939-87a4-11e0-b48d-1231391d338d"
+  }, {
+    "_ref" : "00000152-3cff-d85c-a753-beff62af0000",
+    "_type" : "3fa7e939-87a4-11e0-b48d-1231391d338d"
+  }, {
+    "_ref" : "00000152-3cff-d85c-a753-beff48770000",
+    "_type" : "3fa7e939-87a4-11e0-b48d-1231391d338d"
+  }, {
+    "_ref" : "00000152-3cff-d85c-a753-beff56f50000",
+    "_type" : "3fa7e939-87a4-11e0-b48d-1231391d338d"
+  }, {
+    "_ref" : "00000152-3cff-d85c-a753-beff4e240000",
+    "_type" : "3fa7e939-87a4-11e0-b48d-1231391d338d"
+  }, {
+    "_ref" : "00000152-3cff-d85c-a753-beff458f0000",
+    "_type" : "3fa7e939-87a4-11e0-b48d-1231391d338d"
+  }, {
+    "_ref" : "00000152-3cff-d85c-a753-beff77db0000",
+    "_type" : "3fa7e939-87a4-11e0-b48d-1231391d338d"
+  }, {
+    "_ref" : "00000152-3974-d977-af7a-bb7c16460000",
+    "_type" : "3fa7e939-87a4-11e0-b48d-1231391d338d"
+  }, {
+    "_ref" : "00000151-c5cd-d4bf-a15b-d7ed72980000",
+    "_type" : "3fa7e939-87a4-11e0-b48d-1231391d338d"
+  }, {
+    "_ref" : "00000152-3cff-d85c-a753-beff7aba0000",
+    "_type" : "3fa7e939-87a4-11e0-b48d-1231391d338d"
+  }, {
+    "_ref" : "00000151-c5ca-d2c4-afdf-eddb7e820000",
+    "_type" : "3fa7e939-87a4-11e0-b48d-1231391d338d"
+  } ],
+  "articleTemplateConfig" : {
+    "_ref" : "00000152-8fab-dcc7-a75b-efaf264a0000",
+    "_type" : "00000151-64f1-d2e3-a353-7cf5cca90000"
+  },
+  "cms.seo.title" : "Disney on Ice at Verizon Center",
+  "cms.seo.description" : "Disney on Ice at Verizon Center",
+  "cms.seo.keywords" : [ "DC Shows", "Concert", "Entertainment", "Disney", "Disney on Ice", "Verizon Center" ],
+  "externalId" : "0000013b-e764-d8b5-a77b-e76649710001",
+  "sponsored" : false,
+  "_id" : "00000152-8f7f-d761-abfa-df7f7a9e0000",
+  "_type" : "00000150-ed40-d25b-af57-fff03b3d0002"
+}

@@ -1,0 +1,60 @@
+getArticle:
+  name: get-article-service-${self:custom.stage}
+  handler: handler.getArticle
+  memorySize: 256
+  timeout: 5
+  environment: ${file(./env.yml):${self:custom.stage}}
+
+  events:
+    - http:
+        path: article/{id}
+        method: get
+
+getArticleList:
+  name: get-article-service-${self:custom.stage}
+  handler: handler.getArticleList
+  memorySize: 256
+  timeout: 5
+  environment: ${file(./env.yml):${self:custom.stage}}
+
+  events:
+    - http:
+        path: articleList
+        method: get
+
+saveArticle:
+  name: save-article-service-${self:custom.stage}
+  handler: handler.saveArticle        
+  memorySize: 256
+  timeout: 5
+  environment: ${file(./env.yml):${self:custom.stage}}
+
+  events:
+    - http:
+        path: article
+        method: post 
+
+updateArticle:
+  name: update-article-service-${self:custom.stage}
+  handler: handler.updateArticle        
+  memorySize: 256
+  timeout: 5
+  environment: ${file(./env.yml):${self:custom.stage}}
+
+  events:
+    - http:
+        path: article/{id}
+        method: put         
+
+deleteArticle:
+  name: delete-article-service-${self:custom.stage}
+  handler: handler.deleteArticle        
+  memorySize: 256
+  timeout: 5
+  environment: ${file(./env.yml):${self:custom.stage}}
+
+  events:
+    - http:
+        path: article/{id}
+        method: delete        
+

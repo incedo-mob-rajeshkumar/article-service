@@ -1,0 +1,148 @@
+{
+  "cms.content.publishDate" : 1454109712943,
+  "cms.content.publishUser" : {
+    "_ref" : "00000144-9354-daf8-ab7c-f3ff4de70000",
+    "_type" : "3fa7c225-87a4-11e0-b48d-1231391d338d"
+  },
+  "cms.content.updateDate" : 1487026373582,
+  "cms.content.updateUser" : {
+    "_ref" : "00000144-9354-daf8-ab7c-f3ff4de70000",
+    "_type" : "3fa7c225-87a4-11e0-b48d-1231391d338d"
+  },
+  "cms.ab.fields" : { },
+  "title" : "Monumental Sports Article Template Config",
+  "masthead" : {
+    "_ref" : "00000151-1c73-d348-a7f3-9cf320410000",
+    "_type" : "00000149-38ea-ded6-adfb-3fea501c0000"
+  },
+  "articleModule" : {
+    "_ref" : "00000152-8fab-d6b9-a35e-afbbad9f0000",
+    "_type" : "00000151-87ff-da48-a5f1-a7fff4950000"
+  },
+  "modules" : [ {
+    "cms.ab.fields" : { },
+    "cacheTime" : 86400,
+    "lazyLoad" : true,
+    "visibility" : [ "MOBILE", "TABLET", "DESKTOP" ],
+    "moduleRenderer" : {
+      "_ref" : "00000152-8faf-d9b2-a57b-ffbffacb0000",
+      "_type" : "00000148-653e-d1a7-ab5d-f7beb7d20000"
+    },
+    "moduleWidth" : "FULL_WIDTH",
+    "showForm" : true,
+    "cms.content.publishDate" : 1454109712963,
+    "cms.content.updateDate" : 1487026373515,
+    "limit" : 3,
+    "templateConfigIdentifier" : "comments",
+    "replyEnabled" : true,
+    "defaultItemsForLazyLoad" : 3,
+    "_id" : "00000152-8faf-d9b2-a57b-ffbfea970000",
+    "_type" : "00000149-870f-dbb7-a76f-873f76d30000"
+  }, {
+    "cms.ab.fields" : { },
+    "cacheTime" : 86400,
+    "lazyLoad" : false,
+    "templateConfigIdentifier" : "skyscraperAd",
+    "visibility" : [ "MOBILE", "TABLET", "DESKTOP" ],
+    "activationCode" : "/35495321/MSE_Web_Skyscraper",
+    "moduleWidth" : "FULL_WIDTH",
+    "cms.content.publishDate" : 1457028703602,
+    "cms.content.updateDate" : 1487026373518,
+    "dfpAdSize" : "SKYSCRAPER",
+    "_id" : "00000153-3dad-d1f4-a173-bdbd6cd50000",
+    "_type" : "00000147-92a0-d5fa-a16f-dfbd2c1b0000"
+  }, {
+    "cms.ab.fields" : { },
+    "cacheTime" : 86400,
+    "lazyLoad" : false,
+    "templateConfigIdentifier" : "squareAd",
+    "visibility" : [ "MOBILE", "TABLET", "DESKTOP" ],
+    "activationCode" : "/35495321/MSE_Web_MedRec",
+    "moduleWidth" : "FULL_WIDTH",
+    "cms.content.publishDate" : 1457029186762,
+    "cms.content.updateDate" : 1487026373521,
+    "dfpAdSize" : "RECTANGLE",
+    "_id" : "00000153-3db4-d768-a17b-7df4e4440000",
+    "_type" : "00000147-92a0-d5fa-a16f-dfbd2c1b0000"
+  } ],
+  "footer" : {
+    "_ref" : "00000151-1c72-dec3-a179-3ffa7fb50000",
+    "_type" : "00000148-653e-d1a7-ab5d-f7beb7d40000"
+  },
+  "cms.seo.keywords" : [ ],
+  "cms.seo.robots" : [ ],
+  "cms.directory.paths" : [ ],
+  "cms.directory.pathTypes" : { },
+  "cms.site.owner" : {
+    "_ref" : "00000151-11b4-d29b-a17d-55fdb2b80000",
+    "_type" : "3fa7e939-87a4-11e0-b48d-1231391d338d"
+  },
+  "cms.directory.pathsMode" : "MANUAL",
+  "cms.site.consumers" : [ {
+    "_ref" : "00000152-3cff-d85c-a753-beff48770000",
+    "_type" : "3fa7e939-87a4-11e0-b48d-1231391d338d"
+  }, {
+    "_ref" : "00000152-3cff-d85c-a753-beff458f0000",
+    "_type" : "3fa7e939-87a4-11e0-b48d-1231391d338d"
+  }, {
+    "_ref" : "00000152-3cff-d85c-a753-beff724d0000",
+    "_type" : "3fa7e939-87a4-11e0-b48d-1231391d338d"
+  }, {
+    "_ref" : "00000152-3cff-d85c-a753-beff74fe0000",
+    "_type" : "3fa7e939-87a4-11e0-b48d-1231391d338d"
+  }, {
+    "_ref" : "00000152-3974-d977-af7a-bb7c16460000",
+    "_type" : "3fa7e939-87a4-11e0-b48d-1231391d338d"
+  }, {
+    "_ref" : "00000152-3cff-d85c-a753-beff42840000",
+    "_type" : "3fa7e939-87a4-11e0-b48d-1231391d338d"
+  }, {
+    "_ref" : "00000151-c5cd-d4bf-a15b-d7ed72980000",
+    "_type" : "3fa7e939-87a4-11e0-b48d-1231391d338d"
+  }, {
+    "_ref" : "00000152-3cff-d85c-a753-beff77db0000",
+    "_type" : "3fa7e939-87a4-11e0-b48d-1231391d338d"
+  }, {
+    "_ref" : "00000152-3cff-d85c-a753-beff6c990000",
+    "_type" : "3fa7e939-87a4-11e0-b48d-1231391d338d"
+  }, {
+    "_ref" : "00000152-3cff-d85c-a753-beff7d970000",
+    "_type" : "3fa7e939-87a4-11e0-b48d-1231391d338d"
+  }, {
+    "_ref" : "00000152-3cff-d85c-a753-beff6f770000",
+    "_type" : "3fa7e939-87a4-11e0-b48d-1231391d338d"
+  }, {
+    "_ref" : "00000152-3cff-d85c-a753-beff65bc0000",
+    "_type" : "3fa7e939-87a4-11e0-b48d-1231391d338d"
+  }, {
+    "_ref" : "00000152-3cff-d85c-a753-beff56f50000",
+    "_type" : "3fa7e939-87a4-11e0-b48d-1231391d338d"
+  }, {
+    "_ref" : "00000151-c5ce-d10b-a7fb-f7dedd2e0000",
+    "_type" : "3fa7e939-87a4-11e0-b48d-1231391d338d"
+  }, {
+    "_ref" : "00000151-c5cf-da42-a9f5-ffdf6fba0000",
+    "_type" : "3fa7e939-87a4-11e0-b48d-1231391d338d"
+  }, {
+    "_ref" : "00000152-3cff-d85c-a753-beff3f620000",
+    "_type" : "3fa7e939-87a4-11e0-b48d-1231391d338d"
+  }, {
+    "_ref" : "00000152-3cff-d85c-a753-beff62af0000",
+    "_type" : "3fa7e939-87a4-11e0-b48d-1231391d338d"
+  }, {
+    "_ref" : "00000152-3cff-d85c-a753-beff4b350000",
+    "_type" : "3fa7e939-87a4-11e0-b48d-1231391d338d"
+  }, {
+    "_ref" : "00000151-c5ca-d2c4-afdf-eddb7e820000",
+    "_type" : "3fa7e939-87a4-11e0-b48d-1231391d338d"
+  }, {
+    "_ref" : "00000152-3cff-d85c-a753-beff4e240000",
+    "_type" : "3fa7e939-87a4-11e0-b48d-1231391d338d"
+  }, {
+    "_ref" : "00000152-3cff-d85c-a753-beff7aba0000",
+    "_type" : "3fa7e939-87a4-11e0-b48d-1231391d338d"
+  } ],
+  "yellowstoneEnabled" : false,
+  "_id" : "00000152-8fab-dcc7-a75b-efaf264a0000",
+  "_type" : "00000151-64f1-d2e3-a353-7cf5cca90000"
+}
