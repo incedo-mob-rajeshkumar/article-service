@@ -49,11 +49,11 @@ package:
   individually: true
 
 functions:
-  saveArticle: ${file(/config/functions.yml):saveArticle}
-  getArticle: ${file(/config/functions.yml):getArticle}
-  getArticleList: ${file(/config/functions.yml):getArticleList}
-  updateArticle: ${file(/config/functions.yml):updateArticle}
-  deleteArticle: ${file(/config/functions.yml):deleteArticle}
+  saveArticle: ${file(config/functions.yml):saveArticle}
+  getArticle: ${file(config/functions.yml):getArticle}
+  getArticleList: ${file(config/functions.yml):getArticleList}
+  updateArticle: ${file(config/functions.yml):updateArticle}
+  deleteArticle: ${file(config/functions.yml):deleteArticle}
     
 resources:
   Description: "Stack for Article"
